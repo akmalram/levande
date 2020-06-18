@@ -833,11 +833,7 @@ body {
     box-sizing: border-box;
     padding-bottom: 20px;
     background-color: #fff;
-
-    @include sm-block {
-        padding-bottom: 10vh;
-
-    }
+    padding-bottom: 20vh;
 
     &.active {
         right: 0;
